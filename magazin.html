@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Интернет-магазин</title>
+  </head>
+  <body>
+    <header>
+      <h1>Интернет-магазин</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Категории</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <input type="search" placeholder="Поиск товаров..." />
+    </header>
+
+    <main>
+      <article class="product">
+        <img
+          src="https://static.lichi.com/product/46409/acdd98d2d0667c5039ccd57c9fb524e7.jpg?v=0_46409.0&resize=size-middle"
+          alt="Товар 1"
+        />
+        <h2>Товар 1</h2>
+        <p>Описание товара...</p>
+        <p>Цена: 1000 руб.</p>
+        <button>Добавить в корзину</button>
+      </article>
+
+      <article class="product">
+        <img
+          src="https://www.charuel.ru/upload/resize_cache/iblock/871/800_1067_1/p33ftb35t79f0wzfnpqijwhw0sgnxdqf.jpg"
+          alt="Товар 2"
+        />
+        <h2>Товар 2</h2>
+        <p>Описание товара...</p>
+        <p>Цена: 2000 руб.</p>
+        <button>Добавить в корзину</button>
+      </article>
+
+      <aside>
+        <h2>Фильтры</h2>
+        <form>
+          <label>
+            Цена:
+            <input type="range" min="0" max="5000" />
+          </label>
+          <label>
+            Категория:
+            <select>
+              <option>Все</option>
+              <option>Категория 1</option>
+              <option>Категория 2</option>
+            </select>
+          </label>
+        </form>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Контакты: <a href="mailto:info@shop.com">info@shop.com</a></p>
+      <p>&copy; 2024 Интернет-магазин</p>
+    </footer>
+  </body>
+</html>
